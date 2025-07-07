@@ -8,8 +8,14 @@ public class LogoutOutputData {
     private String username;
     private boolean useCaseFailed;
 
+    /**
+     * Constructor LogoutOutputData with username and whether the use case failed.     *
+     * @param username       the username of the user logging out
+     * @param useCaseFailed  whether the use case failed
+     */
     public LogoutOutputData(String username, boolean useCaseFailed) {
-        // TODO: save the parameters in the instance variables.
+        this.username = username;
+        this.useCaseFailed = useCaseFailed;
     }
 
     public String getUsername() {
