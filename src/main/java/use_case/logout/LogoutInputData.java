@@ -16,6 +16,7 @@ public class LogoutInputData {
     }
 
     /**
+     * This method gets the user's username.
      * @return the username of the user logging out
      */
     public String getUsername() {
