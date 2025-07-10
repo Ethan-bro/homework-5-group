@@ -22,8 +22,6 @@ public class Main {
                                             .addLoginUseCase()
                                             .addChangePasswordUseCase()
                                             .build();
-
-
         application.pack();
         application.setVisible(true);
     }
